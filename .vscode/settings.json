@@ -4,6 +4,14 @@
         "editor.defaultFormatter": "rust-lang.rust-analyzer"
     },
     "rust-analyzer.linkedProjects": [
+        "./packages/swc-plugin/Cargo.toml",
+        "./packages/swc-plugin/Cargo.toml",
+        "./packages/swc-plugin/Cargo.toml",
+        "./packages/swc-plugin/Cargo.toml",
+        "./packages/swc-plugin/Cargo.toml",
+        "./packages/swc-plugin/Cargo.toml",
+        "./packages/swc-plugin/Cargo.toml",
+        "./packages/swc-plugin/Cargo.toml",
         "./packages/swc-plugin/Cargo.toml"
     ],
     "[toml]": {
