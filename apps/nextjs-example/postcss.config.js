@@ -44,14 +44,14 @@ const openPropsIncludePaths = getPackageIncludePaths('@stylexjs/open-props', [
 
 module.exports = {
   plugins: {
-    '@stylexjs/postcss-plugin': {
-      include: [
-        'app/**/*.{js,jsx,ts,tsx}',
-        'components/**/*.{js,jsx,ts,tsx}',
-        ...openPropsIncludePaths,
-      ],
-      useCSSLayers: true,
-    },
+    // '@stylexjs/postcss-plugin': {
+    //   include: [
+    //     'app/**/*.{js,jsx,ts,tsx}',
+    //     'components/**/*.{js,jsx,ts,tsx}',
+    //     ...openPropsIncludePaths,
+    //   ],
+    //   useCSSLayers: true,
+    // },
     autoprefixer: {},
   },
 };
